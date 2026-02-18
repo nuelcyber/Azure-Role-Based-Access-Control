@@ -1,5 +1,3 @@
-# Azure-Role-Based-Access-Control
-
 # Azure Role-Based Access Control Implementation Lab
 
 ## Project Overview
