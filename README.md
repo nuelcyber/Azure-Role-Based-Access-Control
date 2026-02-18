@@ -150,9 +150,9 @@ Steps performed:
 
 ## Verify access controls by reviewing role assignments
 
-I verified that Eneattah Ogebe is assigned the Virtual Contributor role, and Oluwatobi Babalola has no assigned roles
+I verified that Eneattah Ogebe is assigned the Virtual Machine Contributor role, and Oluwatobi Babalola has no assigned roles
 
-<p align="center"><strong>Figure 10: Validating Eneattah Ogebe’s Virtual Contributor role assignment</strong></p>
+<p align="center"><strong>Figure 10: Validating Eneattah Ogebe’s role assignment</strong></p>
 
 <p align="center">
   <img src="images/RBAC10.png" width="700" height="400">
