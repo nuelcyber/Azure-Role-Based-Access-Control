@@ -50,13 +50,13 @@ Demonstrates manual identity and group management using the Azure Portal to impl
 <p align="center"><strong>Figure 1: Creating the user Oluwatobi Emmanuel</strong></p>
 
 <p align="center">
-  <img src="RBAC12.png" width="700" height="400">
+  <img src="images/RBAC12.png" width="700" height="400">
 </p>
 
 <p align="center"><strong>Figure 2: Creating the Senior Admins Group and adding Oluwatobi Emmanuel</strong></p>
 
 <p align="center">
-  <img src="RBAC1.png" width="700" height="400">
+  <img src="images/RBAC1.png" width="700" height="400">
 </p>
 
 ## Creating the Junior Admins Group using Azure PowerShell
@@ -73,13 +73,13 @@ This demonstrates manual identity and group management using the Azure Portal to
 <p align="center"><strong>Figure 3: Creating the User Oluwatobi Babalola and the Junior Admins group</strong></p>
 
 <p align="center">
-  <img src="RBAC2.png" width="700" height="400">
+  <img src="images/RBAC2.png" width="700" height="400">
 </p>
 
 <p align="center"><strong>Figure 4: Adding the User Oluwatobi Babalola to the Junior Admins group</strong></p>
 
 <p align="center">
-  <img src="RBAC3.png" width="700" height="400">
+  <img src="images/RBAC3.png" width="700" height="400">
 </p>
 
 
@@ -92,9 +92,35 @@ Steps performed:
 3. Created a new Security Group named Service Desk
 4. Added user Eneattah Ogebe as a member of the Service Desk Group
 
+<p align="center"><strong>Figure 5: Creating the User Eneattah Ogebe</strong></p>
 
+<p align="center">
+  <img src="images/RBAC4.png" width="700" height="400">
+</p>
 
+<p align="center"><strong>Figure 6: Creating the Service Desk Group</strong></p>
 
+<p align="center">
+  <img src="images/RBAC5.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 7: Adding the User Eneattah Ogebe to the Service Desk Group</strong></p>
+
+<p align="center">
+  <img src="images/RBAC6.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 8: All Groups Created</strong></p>
+
+<p align="center">
+  <img src="images/RBAC7.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 9: All Users Created</strong></p>
+
+<p align="center">
+  <img src="images/RBAC8.png" width="700" height="400">
+</p>
 
 ## Assigning the Virtual Machine Contributor Role to the Service Desk Group
 
@@ -108,6 +134,11 @@ Steps performed:
 6. Selected the Service Desk group as the member
 7. Reviewed and clicked Assign to complete the role assignment
 
+<p align="center"><strong>Figure 10: Assigning the Virtual Machine Contributor Role to the Service Desk Group</strong></p>
+
+<p align="center">
+  <img src="images/RBAC9.png" width="700" height="400">
+</p>
 
 ## Why Assign Roles to Groups Instead of Users?
 - Improves scalability
@@ -116,6 +147,22 @@ Steps performed:
 - Supports Zero Trust architecture
 - Enhances auditability
 
+
+## Verify access controls by reviewing role assignments
+
+I verified that Eneattah Ogebe is assigned the Virtual Contributor role, and Oluwatobi Babalola has no assigned roles
+
+<p align="center"><strong>Figure 10: Validating Eneattah Ogebe’s Virtual Contributor role assignment</strong></p>
+
+<p align="center">
+  <img src="images/RBAC10.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 11: Confirming that Oluwatobi Babalola has no assigned roles</strong></p>
+
+<p align="center">
+  <img src="images/RBAC11.png" width="700" height="400">
+</p>
 
 ## Security Concepts Demonstrated
 - Identity and Access Management (IAM)
@@ -148,7 +195,7 @@ RBAC ensures:
 
 
 ## Conclusion
-This lab demonstrates practical implementation of Azure RBAC using multiple management interfaces while enforcing structured identity governance.
+This lab demonstrates the practical implementation of Azure RBAC using multiple management interfaces while enforcing structured identity governance.
 It highlights secure access delegation and cloud security best practices relevant to:
 - Cloud Security Engineer
 - Azure Administrator
