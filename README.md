@@ -6,7 +6,7 @@ This project demonstrates the implementation of **Role-Based Access Control (RBA
 
 The lab showcases how to:
 
-- Create Microsoft Entra ID (Azure AD) security groups
+- Create Microsoft Entra ID (Azure AD) users and security groups
 - Assign users to groups
 - Implement role-based permissions at subscription scope
 - Enforce the Principle of Least Privilege
@@ -17,11 +17,11 @@ All resources were deployed in the **West US** region.
 
 ## Lab Objectives
 
-- Create Senior Admins group and add Joseph Price using the Azure Portal
-- Create Junior Admins group and add Isabel Garcia using PowerShell 
-- Create Service Desk group and add Dylan Williams using the Azure CLI
+- Create a Senior Admins group and add Oluwatobi Emmanuel using the Azure Portal
+- Create a Junior Admins group and add Oluwatobi Babalola using PowerShell 
+- Create a Service Desk group and add Eneattah Ogebe using the Azure CLI
 - Assign Virtual Machine Contributor role to the Service Desk group  
-- Test the implemented access control
+- Verify the implemented access controls by reviewing role assignments
 
 
 ## Technologies & Services Used
@@ -42,38 +42,58 @@ All resources were deployed in the **West US** region.
 Steps performed:
 
 1. Navigated to Microsoft Entra ID
-2. Created a new Security Group named Senior Admins
-3. Added user Joseph Price as a member
+2. Created a new user named Oluwatobi Emmanuel
+3. Created a new Security Group named Senior Admins
+4. Added user Oluwatobi Emmanuel as the owner and member of the Senior Admins Group
 
 Demonstrates manual identity and group management using the Azure Portal to implement structured administrative access.
+<p align="center"><strong>Figure 1: Creating the user Oluwatobi Emmanuel</strong></p>
 
-<p align="center"><strong>Figure 1: Senior Admins Group Creation</strong></p>
+<p align="center">
+  <img src="RBAC12.png" width="700" height="400">
+</p>
+
+<p align="center"><strong>Figure 2: Creating the Senior Admins Group and adding Oluwatobi Emmanuel</strong></p>
 
 <p align="center">
   <img src="RBAC1.png" width="700" height="400">
 </p>
 
-## Creating the Junior Admins Group using Azure Powershell
+## Creating the Junior Admins Group using Azure PowerShell
 
 Steps performed:
 
-1. Navigated to Azure Powershell
-2. Created a new Security Group named Junior Admins
-3. Added user Isabel Garcia as a member
+1. Navigated to Azure PowerShell
+2. Created a new user named Oluwatobi Babalola
+3. Created a new Security Group named Junior Admins
+4. Added user Oluwatobi Babalola as a member of the Junior Admins group
 
 This demonstrates manual identity and group management using the Azure Portal to implement structured administrative access.
 
-<p align="center"><strong>Figure 1: Senior Admins Group Creation</strong></p>
+<p align="center"><strong>Figure 3: Creating the User Oluwatobi Babalola and the Junior Admins group</strong></p>
+
+<p align="center">
   <img src="RBAC2.png" width="700" height="400">
 </p>
+
+<p align="center"><strong>Figure 4: Adding the User Oluwatobi Babalola to the Junior Admins group</strong></p>
+
+<p align="center">
+  <img src="RBAC3.png" width="700" height="400">
+</p>
+
 
 ## Creating the Service Desk Group using Azure CLI
 
 Steps performed:
 
 1. Navigated to Azure CLI
-2. Created a new Security Group named Service Desk
-3. Added user Dylan Williams as a member
+2. Created a new user named Eneattah Ogebe
+3. Created a new Security Group named Service Desk
+4. Added user Eneattah Ogebe as a member of the Service Desk Group
+
+
+
 
 
 ## Assigning the Virtual Machine Contributor Role to the Service Desk Group
