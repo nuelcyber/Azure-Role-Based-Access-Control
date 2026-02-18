@@ -50,7 +50,7 @@ Demonstrates manual identity and group management using the Azure Portal to impl
 <p align="center"><strong>Figure 1: Senior Admins Group Creation</strong></p>
 
 <p align="center">
-  <img src="images/senior-admins.png" width="700" height="400">
+  <img src="RBAC1.png" width="700" height="400">
 </p>
 
 ## Creating the Junior Admins Group using Azure Powershell
@@ -62,6 +62,10 @@ Steps performed:
 3. Added user Isabel Garcia as a member
 
 This demonstrates manual identity and group management using the Azure Portal to implement structured administrative access.
+
+<p align="center"><strong>Figure 1: Senior Admins Group Creation</strong></p>
+  <img src="RBAC2.png" width="700" height="400">
+</p>
 
 ## Creating the Service Desk Group using Azure CLI
 
@@ -81,7 +85,7 @@ Steps performed:
 3. Clicked on Access Control (IAM)
 4. Selected Add role assignment
 5. Chose the Virtual Machine Contributor role
-6. Selected Service Desk group as the member
+6. Selected the Service Desk group as the member
 7. Reviewed and clicked Assign to complete the role assignment
 
 
